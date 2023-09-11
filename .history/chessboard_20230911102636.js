@@ -7,12 +7,10 @@ let board = '';
 for (let i = 0; i <= size; i++) {
   // for loop to define the horizontal axis
   for (let x = 0; x <= size; x++) {
-    // if x and y are both divided by 2: add a space
+    // if x and y are both dividable through 2 
     if (x % 2 == i % 2) board += ' ';
-    // els: print a hash
     else board += '#';
   }
-  // when 1 horizontal line is done, create a newline
   board += '\n';
 }
 

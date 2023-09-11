@@ -12,7 +12,7 @@ for (let i = 0; i <= size; i++) {
     // els: print a hash
     else board += '#';
   }
-  // when 1 horizontal line is done, create a newline
+  // when 1 horizontal line is done, add a 
   board += '\n';
 }
 
