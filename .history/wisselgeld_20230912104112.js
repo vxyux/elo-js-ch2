@@ -1,2 +1,0 @@
-
-let returningPrice = 500;

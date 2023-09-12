@@ -1,5 +1,0 @@
-
-
-let returningCents = 500;
-
-
