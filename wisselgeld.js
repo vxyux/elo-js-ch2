@@ -6,7 +6,7 @@ for (var i = 0; amount > 0 && i < possibleCoins.length; i++) {
   const value = possibleCoins[i];
   if (value <= amount) {
     calculatedChange[value] = Math.floor(amount / value);
-    amount -= value * calculatedChange[value];
+    amount %= value;
   }
 }
-console.log(calculatedChange); 
+console.log(calculatedChange);
