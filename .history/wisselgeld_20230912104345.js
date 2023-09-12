@@ -1,0 +1,3 @@
+let returningCents = 500;
+
+const possibleCoins = [5, 10, 20, 50, ]
