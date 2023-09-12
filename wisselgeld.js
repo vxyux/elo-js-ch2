@@ -9,4 +9,4 @@ for (var i = 0; amount > 0 && i < possibleCoins.length; i++) {
     amount -= value * calculatedChange[value];
   }
 }
-console.log(calculatedChange);
+console.log(calculatedChange); 
