@@ -33,5 +33,12 @@ console.log(deepEqual(obj, { here: { is: 'an' }, object: 2 }));
 
 /*
   Notes:
+  The deepEqual() function has the purpose to compare 2 params determining if they are both identical.
+  In the first 8 lines it looks if both of the params are either identical or made out of objects. At
+  line 10 it looks if they indeed have the same 'length' (same amount of keys), if that isn't the case
+  it will return the boolean value of false.
 
+  At line 11 a for loop is initiated to loop through to each key inside the first param object. If the
+  opposing object has that key then it will check itself in a recursive loop: allowing for both object
+  keys to compare with eachother.
 */
